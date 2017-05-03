@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body {
+	background-color: #F5F3EE;
+}
+
+.navbar.navbar-default {
+	border-width: 0px;
+	border-radius: 0px;
+	background-color: #F5F3EE;
+	margin-top: 20px;
+}
+#wrap {
+	padding-left: 1px;
+	padding-right: 1px;
+}
