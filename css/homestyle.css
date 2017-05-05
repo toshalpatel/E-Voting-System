@@ -1,0 +1,35 @@
+@charset "utf-8";
+body {
+background-color: #F5F3EE;
+}
+
+h1, h3, p {
+	text-align: center;
+}
+	
+#art {
+	width: 75%;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+footer {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 18px;
+}
+.navbar.navbar-default {
+	border-width: 0px;
+	border-radius: 0px;
+	background-color: #F5F3EE;
+	margin-top: 20px;
+}
+#wrap {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.imgfill {
+	width: 100%;
+}
