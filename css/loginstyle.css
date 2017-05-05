@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body {
+	background-color: #F5F3EE;
+}
+
+.navbar.navbar-default {
+	border-width: 0px;
+	border-radius: 0px;
+background-color: #F5F3EE;
+	margin-top: 20px;
+}
+
+form {
+	border: 50px groove #f1f1f1;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	margin-left: 0px;
+	padding-left: 100px;
+	padding-right: 100px;
+	border-radius: 50px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+	
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* The "Forgot password" text */
+span.psw {
+	float: right;
+	padding-top: 16px;
+	padding-bottom: 9px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
